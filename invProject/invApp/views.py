@@ -1,10 +1,10 @@
 from django.shortcuts import render, redirect
 
-# Create your views here.
+
 from .forms import ProductForm
 from .models import Product
 
-# CRUD = Create , Read, Update, Delete
+
 
 # Home View
 def home_view(request):
